@@ -25,7 +25,7 @@ def add_note(message:str)->str:
     return "Note saved"
 
 
-mcp.tool()
+@mcp.tool()
 def get_notes():
     """Retrieve all notes from the sticky note file\
         Returns :
